@@ -6,7 +6,7 @@ print(DRINKS)
 print(SOUP)
 print(DESSERT)
 
-menu = input("")
+menu = input("Выберите категорию: ")
 
 if menu == "напиток":
     print(DRINKS)
@@ -17,7 +17,7 @@ elif menu == "десерт":
 else:
     print("Выберите категорию из списка!")
 
-price = input("")
+price = input("Выберите блюдо: ")
 
 match price:
     case "чай":
@@ -34,9 +34,11 @@ match price:
         print("140р")
     case "торт":
         print("100р")
-    case "мороженное":
+    case "мороженое":
         print("80р")
     case "фрукты":
         print("130р")
     case _:
-        print("ошибка")
+        print("неверная категория")
+
+        #sdelal
