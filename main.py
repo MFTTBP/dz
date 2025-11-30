@@ -40,3 +40,5 @@ match price:
         print("130р")
     case _:
         print("ошибка")
+
+        #sdelal
