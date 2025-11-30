@@ -34,11 +34,11 @@ match price:
         print("140р")
     case "торт":
         print("100р")
-    case "мороженное":
+    case "мороженое":
         print("80р")
     case "фрукты":
         print("130р")
     case _:
-        print("ошибка")
+        print("неверная категория")
 
         #sdelal
